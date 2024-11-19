@@ -15,7 +15,7 @@ public class Main {
         );
         Hippodrome hippodrome = new Hippodrome(horses);
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10; i++) {
             hippodrome.move();
             watch(hippodrome);
             TimeUnit.MILLISECONDS.sleep(200);
